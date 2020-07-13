@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>网页标题</title>
+    <script src = "https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <h1>第1个箱子第2层排布结果</h1>
+    <svg width='1000' height='1000'></svg>
+    <script>
+      var color=['#DA70D6', '#6495ED', '#B0E0E6' ,"#FF00FF"]
+      console.log("dddd",d3.select('svg'))
+      var g = d3.select('svg').append('g')
+      g.append('rect')
+          .attr('x', 0)
+          .attr('y', 0)
+          .attr('width', 800)
+          .attr('height', 550)
+          .attr('fill', '#FFF')
+          .attr('stroke-width', '2')
+          .attr('stroke', '#000')
+      var data = [
+      [0,0,21,14],
+[21,0,21,14],
+[42,0,21,14],
+[63,0,14,21],
+[63,21,14,21],
+[42,14,21,14],
+[0,0,25,15],
+        ]
+      let box = []
+      for(var i = 0; i<data.length; i++) {
+        if(data[i][2] == 21 || data[i][2] == 14)
+          box.push('4')
+        if(data[i][2] == 23.5 || data[i][2] == 16.5)
+          box.push('5')
+        if(data[i][2] == 25 || data[i][2] == 15)
+          box.push('7')
+        if(data[i][2] == 27.5 || data[i][2] == 17.5)
+          box.push('9')
+      }
+      var colorYinShe ={'9':2,'7':1,'4':0, '5':3}
+      for(let i=0; i<data.length; i++){
+        g.append('g')
+          .append('rect')
+          .attr('x', data[i][0]* 10)
+          .attr('y', data[i][1] * 10)
+          .attr('width', data[i][2]*10)
+          .attr('height', data[i][3]*10)
+          .attr('fill', color[colorYinShe[box[i]]])
+          .attr('stroke-width', '2')
+          .attr('stroke', '#000')
+          .each(function(){
+            d3.select(this.parentNode)
+              .append('text')
+              .text(box[i])
+              .attr('x', data[i][0]* 10 + 90)
+              .attr('y', data[i][1] * 10 + 90)
+              .attr('fill', 'black')
+              .attr('font-size', 50)
+          })
+      }
+    </script>
+</body>
+</html>

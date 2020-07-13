@@ -1,0 +1,4 @@
+﻿  packer.cpp
+c:\users\lee\desktop\数学建模\数学建模\2020\test1\project1\project1\packer.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\数学建模\2020\test1\project1\project1\packer.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+  Project1.vcxproj -> C:\Users\lee\Desktop\数学建模\数学建模\2020\Test1\Project1\Debug\Project1.exe

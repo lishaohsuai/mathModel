@@ -1,0 +1,5 @@
+﻿  源.cpp
+c:\users\lee\desktop\数学建模\数学建模\2020\test\project1\project1\源.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\数学建模\2020\test\project1\project1\源.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\数学建模\2020\test\project1\project1\源.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+  Project1.vcxproj -> C:\Users\lee\Desktop\数学建模\数学建模\2020\Test\Project1\Debug\Project1.exe

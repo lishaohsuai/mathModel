@@ -1,0 +1,19 @@
+﻿  solution.cpp
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(18): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: 参见“fscanf”的声明
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: 参见“fscanf”的声明
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(56): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(119): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lee\desktop\数学建模\2020\c++\project1\solution.cpp(148): warning C4018: “<”: 有符号/无符号不匹配
+  Project1.vcxproj -> C:\Users\lee\Desktop\数学建模\2020\C++\Project1\Debug\Project1.exe
